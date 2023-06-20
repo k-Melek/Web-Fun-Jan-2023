@@ -1,0 +1,33 @@
+button{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.search{
+    width: 130px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid #3EB489;
+    color:#3EB489;
+    font-size: 15px;
+    font-weight: bold;
+}
+.plus{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #3EB489;
+    background-color: #3EB489;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.create{
+    width: 180px;
+    height: 40px;
+    background-color: #0066b2;
+    border: 2px solid black;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.8);
+}
