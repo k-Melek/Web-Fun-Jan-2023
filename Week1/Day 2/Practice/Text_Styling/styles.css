@@ -1,0 +1,53 @@
+.black {
+    background-color: black;
+    color: white;
+    height: 60px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .black h1 {
+    font-size: 30px;
+    text-align: left; /* Align text to the left */
+    margin: 0;
+    padding: 0 10px;
+  }
+  
+  .purple {
+    background-color: Indigo;
+    color: white;
+    height: 40px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .blue {
+    background-color: lightblue;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align text to the right */
+    text-align: center;
+  }
+  
+  .purple h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .blue h3 {
+    color: purple;
+    text-decoration: underline;
+    font-size: 24px;
+    margin: 0;
+    padding: 0 10px;
+  }
+  span{
+    color: aqua;
+  }
+  
