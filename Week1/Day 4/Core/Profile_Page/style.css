@@ -6,7 +6,6 @@
 /* Big_CONTAINER ___________________________________________ */
 .container{
     width: 1000px;
-    min-height: 500px;
     background-color: black;
     margin: 0 auto;
     padding: 3px;
@@ -120,11 +119,12 @@ main {
 li {
     margin-bottom: 15px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:flex-start;
 }
 li img {
     width: 25px;
     border-radius: 50%;
+    margin-left: 10px;
 }
 /* Head of ul 1_________________________________ */
 .ul1 ul>li:first-child {
@@ -137,6 +137,10 @@ li img {
     background-color: rgb(51, 51, 51);
     padding: 20px;
     color: white;
+}
+/* Names inside the LISTS ___________________ */
+.names {
+    margin-left: 10px;
 }
 /* Number 2 circle in the first li in ul1 */
 #number2 {
