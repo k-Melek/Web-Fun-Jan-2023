@@ -1,0 +1,49 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* Button______________class create________  */
+.create{
+    width: 180px;
+    height: 40px;
+    background-color: #0066b2;
+    border: 2px solid black;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.8);
+}
+/* 3 ROWS with FLEXIBLE divs  */
+.row{
+    background-color: white;
+    display: flex;
+}
+.col{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+}
+.col-2{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    flex: 2;
+}
+.col-3{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    flex: 3;
+}
