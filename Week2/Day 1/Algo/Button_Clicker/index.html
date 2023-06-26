@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <!-- NAV BAR -->
+    <nav>
+        <h1>Dojonary</h1>
+        <input type="text" name="query" placeholder=" Search">
+        <button onclick="login(this)">Login</button>
+    </nav>
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+            <!-- LEFT SIDE BLOCK  -->
+    <div class="left_side">
+        <!-- - 1st CARD ninja definition -->
+        <div class="card">
+            <div class="name">
+                <h3>ninja</h3>
+                <br>
+                <h5>noun</h5>
+                <br>
+                <h6>plural: ninjas</h6>
+                <br>
+                <button onclick="warn()">13 Likes</button>
+            </div>
+            <div class="definition">
+                <p>A practitioner skilled in the <br> <a href="#">Japanese</a> art of <a href="#">ninjustsu</a></p>
+            </div>
+        </div>
+        <!-- 2nd CARD ninja definition -->
+        <div class="card">
+            <div class="name">
+                <h3>ninja</h3>
+                <br>
+                <h5>noun</h5>
+                <br>
+                <h6>plural: ninjas</h6>
+                <br>
+                <button onclick="warn()">37 Likes</button>
+            </div>
+            <div class="definition">
+                <p>A <a href="#">Programmer</a> who breaks <br> down problems with <a href="#">zen</a>-like focus</p>
+            </div>
+        </div>
+    </div>
+    <!-- RIGHT SIDE BLOCK -->
+    <div class="right_side">
+        <p>Dojonary is <br>defined by YOU</p>
+        <button  onclick="remove(this)">Add Definition</button>
+    </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
