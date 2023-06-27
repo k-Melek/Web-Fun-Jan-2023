@@ -23,7 +23,6 @@
 /* MAIN CONTENT  */
 
 main {
-    outline: 1px solid black;
     display: flex;
     justify-content: center;
     margin: 0 auto;
