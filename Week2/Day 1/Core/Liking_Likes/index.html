@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Liking Likes</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <!-- Network title -->
+    <div class="page_title">
+      <h1>Network</h1>
+    </div>
+    <!-- Your Feed Title -->
+    <div class="main_title">
+      <h2>Your Feed</h2>
+    </div>
+    <!-- Main content -->
+    <main>
+      <div class="left_side">
+        <img src="assests/avatar-icon.png" alt="avatar-icon">
+        <a href="#">Add an avatar</a>
+        <h3>James Doe</h3>
+      </div>
+      <div class="right_side">
+        <div class="container">
+          <div class="sub_container">
+            <h3>Some user</h3>
+            <p><span id="like1">3</span> Like(s)</p>
+            <button onclick="count_likes('like1')">Like</button>
+          </div>
+          <p>
+            This is some filler text, it can say anything<br />
+            we like
+          </p>
+        </div>
+        <div class="container">
+            <div class="sub_container">
+              <h3>Some user</h3>
+              <p><span id="like2">3</span> Like(s)</p>
+              <button onclick="count_likes('like2')">Like</button>
+            </div>
+            <p>
+              This is some filler text, it can say anything<br />
+              we like
+            </p>
+          </div>
+          <div class="container">
+            <div class="sub_container">
+              <h3>Some user</h3>
+              <p><span id="like3">3</span> Like(s)</p>
+              <button onclick="count_likes('like3')">Like</button>
+            </div>
+            <p>
+              This is some filler text, it can say anything<br />
+              we like
+            </p>
+          </div>
+      </div>
+    </main>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
