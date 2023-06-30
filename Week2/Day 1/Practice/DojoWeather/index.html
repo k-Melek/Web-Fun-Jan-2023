@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <!-- NAV BAR -->
+    <nav>
+        
+            <h1>DojoWeather</h1>
+        
+        <div class="nav_right">
+            <h3 onclick="alertWeather()">Burbank</h3>
+            <h3 onclick="alertWeather()">Chicago</h3>
+            <h3 onclick="alertWeather()">Dallas</h3>
+        </div>
+    </nav>
+    <main>
+        <!-- CURRENT CITY AND TEMPERATURE SELECT -->
+        <div class="city">
+            <div class="city_name">
+                <h2>San Jose</h2>
+            </div>
+            <div class="temp_unit">
+                show temperature in 
+                <select name="select_temp" id="select_temp" onchange="convertTemperature()">
+                    <option value="c">°C</option>
+                    <option value="f">°F</option>
+                </select>
+            </div>
+        </div>
+        <!-- SEPARATOR -->
+        <hr>
+        <!-- MAIN CONTENT WITH THE 4 CITY CARDS -->
+        <div class="days">
+            <div class="day">
+                <div><h3>ToDay</h3></div>
+                <div><img class="weather_img" src="assets/some_rain.png" alt="some_rain"></div>
+                <div><h5>some rain</h5></div>
+                <div class="temp">
+                    <div class="max_temp">24°</div>
+                    <div class="min_temp">18°</div>
+                </div>
+            </div>
+            <div class="day">
+                <div><h3>Tomorrow</h3></div>
+                <div><img class="weather_img" src="assets/some_sun.png" alt="some_sun"></div>
+                <div><h5>some sun</h5></div>
+                <div class="temp">
+                    <div class="max_temp">27°</div>
+                    <div class="min_temp">19°</div>
+                </div>
+            </div>
+            <div class="day">
+                <div><h3>Frclassay</h3></div>
+                <div><img class="weather_img" src="assets/some_clouds.png" alt="some_clouds"></div>
+                <div><h5>some clouds</h5></div>
+                <div class="temp">
+                    <div class="max_temp">21°</div>
+                    <div class="min_temp">16°</div>
+                </div>
+            </div>
+            <div class="day">
+                <div><h3>Saturday</h3></div>
+                <div><img class="weather_img" src="assets/some_sun.png" alt="some_sun"></div>
+                <div><h5>some sun</h5></div>
+                <div class="temp">
+                    <div class="max_temp">26°</div>
+                    <div class="min_temp">21°</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- COOCKIES FOOTER -->
+    <footer>
+        <div class="icon">
+            <img src="assets/cookie.png" alt="cookie">
+        </div>
+        <div class="text">
+            <h5>Stop! Cookie time</h5>
+        <p>We use cookies (sadly not the edible ones) to personalize<br>content and ads, to provclasse social media features and to<br>analyse our traffic. <a href="#">Read more...</a> </p>
+        </div>
+        <div class="button">
+            <button onclick="removeCookie()">I Accept</button>
+        </div>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>

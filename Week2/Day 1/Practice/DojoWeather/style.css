@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* GENERAL RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+/* NAV BAR */
+nav {
+    background-color: rgb(159, 197, 248);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+nav h3:hover {
+    cursor: pointer;
+}
+.nav_right {
+    width: 20%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+/* MAIN CONTENT including CITY CARDS */
+main {
+    width: 65%;
+    margin: 20px auto;
+}
+.city {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+hr {
+    margin-top: 20px;
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, transparent, black, transparent);
+}
+.days {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.day {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgb(238, 238, 238);
+}
+.day > div {
+    margin-bottom: 10px;
+}
+.weather_img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.max_temp {
+    color: red;
+}
+.min_temp {
+    color: blue;
+}
+.temp > div {
+    display: inline-block;
+    margin: 20px;
+}
+footer {
+    position: fixed;
+    left: 250px;
+    width: 60%;
+    outline: 2px solid black;
+    display: flex;
+    padding: 10px;
+    line-height: 1.5;
+}
+footer div {
+    margin: auto 15px;
+}
+button {
+    position: relative;
+    left: 100px;
+    background-color: rgb(159, 197, 248);
+    box-shadow: 3px 3px black;
+    padding: 10px 20px;
+}
