@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CodeIt</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Start Header -->
+        <header class="flex_items">
+            <div class="left_header flex_items">
+                <img src="./images/cat.png" alt="cat logo">
+                <h1>CodeIt</h1>
+                <div>
+                    <input id="search" type="text" placeholder=" search">
+                    <button onclick="find()">Go</button>
+                </div>
+            </div>
+            <div class="right_header flex_items">
+                <button class="get_app">Get App</button>
+                <button class="log_in">Log In</button>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!--  -->
+        <nav>
+            <div class="top_nav flex_items">
+                <img src="images/cat.png" alt="cat logo">
+                <h2>c/Dojo</h2>
+                <button onclick="removeButton(this)">Join</button>
+            </div>
+            <ul class="flex_items">
+                <li>Posts</li>
+                <li>Wiki</li>
+                <li>c/Dojo</li>
+                <li>Discord</li>
+            </ul>
+        </nav>
+        <!--  -->
+        <!--  -->
+        <main class="flex_items">
+            <div class="left_main">
+                <div class="left_card flex_items">
+                    <div class="votes">
+                        <img src="./images/up-arrow.png" class="arrow" onclick="voteUp('vote_1')" alt="up-arrow">
+                        <h5 id="vote_1">29</h5>
+                        <img src="./images/down-arrow.png" class="arrow" onclick="voteDown('vote_1')" alt="down-arrow">
+                    </div>
+                    <div class="project">
+                        <h3>Best of Project Week 2022!</h3>
+                        <img src="./images/image1.webp" alt="image1">
+                        <div class="comments flex_items">
+                            <img class="arrow" src="./images/chat.png" alt="chat">
+                            <p>42 comments</p>
+                            <img class="arrow" src="./images/share.png" alt="share">
+                            <p>Share</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="left_card flex_items">
+                    <div class="votes">
+                        <img src="./images/up-arrow.png" class="arrow" onclick="voteUp('vote_2')" alt="up-arrow">
+                        <h5 id="vote_2">29</h5>
+                        <img src="./images/down-arrow.png" class="arrow" onclick="voteDown('vote_2')" alt="down-arrow">
+                    </div>
+                    <div class="project">
+                        <h3>Best of Project Week 2022!</h3>
+                        <img src="./images/image2.webp" alt="image1">
+                        <div class="comments flex_items">
+                            <img class="arrow" src="./images/chat.png" alt="chat">
+                            <p>42 comments</p>
+                            <img class="arrow" src="./images/share.png" alt="share">
+                            <p>Share</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_main">
+                <div class="right_card">
+                    <h4>About the Dojo</h4>
+                    <p>Changing Lives with Code and a dedicated community of debuggers!</p>
+                </div>
+                <div class="right_card">
+                    <h4>Discord</h4>
+                    <div class="card_content">
+                        <button>discord.gg/cdojo</button>
+                    </div>
+                </div>
+                <div class="right_card">
+                    <h4>c/Dojo Rules</h4>
+                    <ol class="card_content">
+                        <li>Follow the 20 Minute Rule!</li>
+                        <li>Don't compare yourself to others!</li>
+                        <li>Learn Activly</li>
+                        <li>Don't Chase Best Practices (Yet)</li>
+                        <li>When you're behind, ask for help!</li>
+                    </ol>
+                </div>
+            </div>
+            
+        </main>
+        <!--  -->
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
